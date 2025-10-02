@@ -22,7 +22,8 @@ INSERT INTO billboard_songs (song_title, artist, peak_rank, first_week, last_wee
         MIN(week) AS first_week,
         MAX(week) AS last_week
     FROM billboard100
-    GROUP BY song_title, artist;
+    GROUP BY song_title, artist
+    ORDER BY MIN(week) ASC;
 
 CREATE TABLE musicbrainz(
     bb_id INT REFERENCES billboard_songs(id),

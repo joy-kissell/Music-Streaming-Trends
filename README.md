@@ -10,7 +10,10 @@ Data sourced from MusicBrainz and Kaggle. Visualized in Tableau, documented here
 - **MusicBrainz API** - https://musicbrainz.org/
 
 ## Tableau Link:
-https://public.tableau.com/views/MusicStreamingTrends_17598133254280/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+![dashboard_preview](https://github.com/joy-kissell/Music-Streaming-Trends/blob/main/music-streaming-trends.png)
+
+[Tableau Dashboard](https://public.tableau.com/views/MusicStreamingTrends_17598133254280/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ## Data Engineering
 
 ### Database Schema
